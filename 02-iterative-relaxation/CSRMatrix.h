@@ -29,7 +29,7 @@ struct CSRMatrix
         values.resize(nnz);
     }
 
-    friend CSRMatrix createLaplacian2D(IdType size, ScalarType);
+    friend CSRMatrix createLaplacian2D<>(IdType size, ScalarType);
 };
 
 template<typename IdType, typename ScalarType>
